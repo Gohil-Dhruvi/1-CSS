@@ -1,0 +1,221 @@
+/* ====================default/common css============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'nunito';
+}
+
+a {
+    text-decoration: none;
+    margin: 12px 12px;
+    display: inline-block;
+}
+
+body {
+    font-family: Nunito;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* ====================== HEADER ==================== */
+header {
+    background-color: #000000;
+    padding: 20px;
+    z-index: 1;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header nav ul a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.3;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header nav ul a.active,
+header nav ul a:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+header .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icon ul a i {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: rgba(22, 28, 45);
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+/* ------------------------footer------------------------------ */
+footer {
+    background-color: #000000;
+}
+
+.foot-info {
+    justify-content: center;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.foot-data h5 {
+    color: rgb(243, 244, 246);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.foot-data p {
+    color: rgb(229, 231, 235);
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.foot-logo img {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.foot-logo p {
+    color: rgb(229, 231, 235);
+    line-height: 26px;
+    max-width: 52%;
+    margin: 30px auto;
+}
+
+.foot-logo i {
+    border-radius: 6px;
+    color: white;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.foot-logo i:hover {
+    background-color: #4F46E5;
+
+}
+
+.copyryt {
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+
+.copyryt .fa-heart {
+    color: red;
+    border: none;
+}
